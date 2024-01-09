@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    width: 84%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.category-text p {
+    color: #F00;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.banner {
+    position: relative;
+    height: 600px;
+    margin-bottom: 80px;
+}
+
+.banner .banner-img img {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-blend-mode: darken;
+}
+
+.banner .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    width: 84%;
+    max-width: 1320px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner .banner-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 95px;
+    height: 190px;
+    width: 550px;
+    margin: auto;
+    /* 131.944% */
+}
+
+/*main section*/
+#category .categories .category-text {
+    width: 24%;
+    max-width: 397px;
+    margin: 0 auto;
+}
+
+.categories .category-text * {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.categories .category-text h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.categories .category-text h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 7px;
+    margin-bottom: 35px;
+}
+
+.categories .category-img {
+    width: 50%;
+    max-width: 803px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+/*midnight section*/
+.mid {
+    position: relative;
+    height: 600px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.mid,
+.midnight-img-1 {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-blend-mode: darken;
+}
+
+.mid .mid-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #e3d8d8;
+    width: 84%;
+    max-width: 1320px;
+    transform: translate(-50%, -50%);
+}
+
+.mid .midnight-img-2 {
+    position: absolute;
+    margin: 68px 140px 67px 900px;
+}
+
+.mid .flex {
+    display: flex;
+}
+
+.mid .mid-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 68px;
+    width: 600px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 10px;
+}
+
+.mid .mid-text p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 697px;
+    margin-bottom: 20px;
+    /* 166.667% */
+}
+
+.mid .flex .mid-text button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/*address section*/
+.address {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 430px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.address .place {
+    padding-top: 170px;
+}
+
+.address p {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.address span {
+    color: #F00;
+}
+
+.address button {
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    padding: 10px 20px;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.address:hover {
+    border: 3px solid blue;
+}
+
+.new-offer {
+    width: 84%;
+    max-width: 1320px;
+}
+
+.new-offer .holiday-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.new-offer h4 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.new-offer p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.new-offer .offer-img {
+    border-radius: 463px;
+    border: 12px solid #F00;
+    width: 463px;
+    height: 463px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
